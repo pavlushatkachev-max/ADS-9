@@ -37,6 +37,7 @@ class PMTree {
     }
     delete now;
   }
+
  public:
   explicit PMTree(std::vector<char> arr) {
     top = new Node('\0');
