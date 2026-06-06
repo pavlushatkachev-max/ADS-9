@@ -13,6 +13,7 @@ class PMTree {
       ch = c;
     }
   };
+
  private:
   Node* top;
   void make(Node* now, std::vector<char> left) {
