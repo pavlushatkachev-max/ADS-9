@@ -28,7 +28,7 @@ int fact(int n) {
   }
   return res;
 }
-}
+}  // namespace
 std::vector<std::vector<char>> getAllPerms(PMTree& tree) {
   std::vector<std::vector<char>> ans;
   std::vector<char> way;
